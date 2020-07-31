@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2020 The CorvusOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -14,9 +14,9 @@ VENDOR=xiaomi
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
-LINEAGE_ROOT="${MY_DIR}"/../../..
+DU_ROOT="${MY_DIR}"/../../..
 
-HELPER="${LINEAGE_ROOT}/vendor/lineage/build/tools/extract_utils.sh"
+HELPER="${DU_ROOT}/vendor/du/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
