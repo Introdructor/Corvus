@@ -28,6 +28,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
-
-# Official Flag
-DU_BUILD_TYPE := OFFICIAL
