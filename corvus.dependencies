@@ -1,15 +1,15 @@
 [
   {
-    "repository": "CorvusRom-Devices/device_xiaomi_ginkgo",
-    "target_path": "device/xiaomi/ginkgo",
-    "branch": "10",
-    "remote": "github"
-  },
-  {
-    "repository": "CorvusRom-Devices/kernel_xiaomi_ginkgo",
+    "repository": "trinket-devs/kernel_xiaomi_ginkgo",
     "target_path": "kernel/xiaomi/ginkgo",
     "branch": "10",
     "remote": "github" 
+  },
+  {
+    "repository": "PixelExperience/packages_apps_PixelLiveWallpaper", 
+    "target_path": "packages/apps/PixelLiveWallpaper", 
+    "branch": "ten", 
+    "remote": "gitlab"
   },
   {
     "repository": "CorvusRom-Devices/vendor_xiaomi_ginkgo",
